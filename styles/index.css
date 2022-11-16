@@ -3,14 +3,23 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: "roboto";
+    font-family: "roboto","sans-serif";
+    background-color: #f2f4fc;
 }
 
 /* Generales: */
 a{
     color: #6b708d;
     text-decoration: none;
+}
 
+h1{
+    color: #292e47;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    line-height: 45px;
 }
 
 /* nav: */
@@ -35,6 +44,7 @@ a{
 .text-nav{
     font-size: 12px;
     list-style-type: none;
+    font-family: sans-serif;
 }
 
 .button-contactUs{
@@ -45,20 +55,96 @@ a{
     margin-left: 10px;
 }
 
-/*responsive: */
+/* hero-section: */
+.hero-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonHero-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text{
+    color: #6b708d;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+    margin-top: 30px;
+    line-height: 24px;
+    font-size: 17px;  
+}
+
+.buttonHero{
+    width: 160px;
+    margin-left: 110px;
+}
+
+.button-getInTouch{
+    background-color: #072ac8;
+    color: white;
+    font-size: 17px;
+    border-color: #072ac8;
+    padding: 14px;
+}
+
+.button-seeOurWork{
+    background: transparent;
+    font-family: sans-serif;
+    outline: none;
+    color: #6b708d;
+    border: none;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.hero-image{
+    margin-top: 10px;
+    width: 315px;
+    margin-left: 40px;
+}
+
+/* responsive: */
 @media (min-width: 1024px){
     .nav-flex{
         justify-content: space-around;
         margin-top: 30px;
     }
 
+    .listnav-flex{
+        gap: 40px;
+    }
+
     .text-nav{
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .button-contactUs{
-        font-size: 17px;
+        font-size: 14px;
         padding: 10px;
+    }
+
+    .logoCircle-svg{
+        width: 60px;
+    }
+
+    /*responsive: */
+
+    .hero-flex{
+        flex-direction: row;
+    }
+
+    .hero-image{
+        width: 560px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .hero-section{
+        margin-top: 100px;
     }
 
 }
