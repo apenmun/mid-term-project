@@ -161,12 +161,177 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color:#f2f4fc;
 }
 
 .imgRecentProject1{
-    width: 315px;
+    width: 260px;
     height: 240px;
+}
+
+.imgRecentProject2{
+    width: 260px;
+    height: 240px;  
+}
+
+.imgRecentProject3{
+    width: 260px;
+    height: 240px;
+}
+
+.h3-a{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.project1Text1{
+    font-size: 24px;
+    color: #292e47;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project1Text2{
+font-size: 17px;
+color: #292e47;
+font-family: sans-serif;
+font-weight: 400;  
+margin-left: 10px; 
+}
+
+.project1Text3{
+    font-size: 17px;
+    color: #072ac8;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    line-height: 80px;
+}
+
+.containerWhite{
+    background-color: white;
+}
+
+.project1Text4{
+    font-size: 24px;
+    color: #292e47;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.project1Text5{
+    font-size: 17px;
+    color: #292e47;
+    font-family: sans-serif;
+    font-weight: 400; 
+    margin-left: 10px 
+    }
+
+.project1Text6{
+    font-size: 17px;
+    color: #072ac8;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 80px;
+    margin-left: 10px
+}
+
+.project1Text7{
+    font-size: 24px;
+    color: #292e47;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.project1Text8{
+    font-size: 17px;
+    color: #292e47;
+    font-family: sans-serif;
+    font-weight: 400;  
+    margin-left: 10px
+}
+
+.project1Text9{
+    font-size: 17px;
+    color: #072ac8;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 80px;  
+    margin-left: 10px
+}
+
+/* orbit: */
+.backgroundOrbit{
+    background-image: url("/testimonial-section/orbit.png");
+    background-color: #292e47;
+    background-size: contain;
+    margin-top: 60px;
+}
+
+.orbit-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3-b{
+    color: #ecf7ff;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h4-a{
+    color: #ffc600;
+    font-size: 24px;
+    line-height: 160%;
+    font-weight: 500;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.imgOrbit1{
+    width: 50px;
+    height: 50px;  
+    border-radius: 50%;
+}
+
+.client-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nameClient{
+    color: #a2d6f9;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.linkClient{
+    color: #ecf7ff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 
@@ -299,5 +464,75 @@ h3{
         height: 32px;
     }
     
+/* Recent projects: */
+.recentProject-flex{
+    flex-direction: row; 
+    justify-content: space-between
+}
 
+.containerSpace{
+    margin-top: 300px;
+}
+
+.imgRecentProject1{
+    width: 340px;
+}
+
+.imgRecentProject2{
+    width: 340px; 
+}
+
+.imgRecentProject3{
+    width: 340px;
+}
+
+.h3-a{
+    text-align: start;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 105px;
+}
+
+.project1Text1{
+    font-size: 24px;
+    color: #292e47;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project1Text2{
+font-size: 17px;
+color: #292e47;
+font-family: sans-serif;
+font-weight: 400;  
+margin-left: 10px; 
+}
+
+.project1Text3{
+    font-size: 17px;
+    color: #072ac8;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    line-height: 80px;
+}
+
+/* Orbit: */
+.h3-b{
+    font-size: 40px;
+}
+
+.h4-a{
+    padding: 100px;
+    padding-left: 422px;
+    padding-right: 422px;
+}
+
+.linkClient{
+    margin-bottom: 100px;
+}
 }
