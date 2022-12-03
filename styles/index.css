@@ -1,879 +1,985 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "roboto", "sans-serif";
-    background-color: #f2f4fc;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto", "sans-serif";
+  background-color: #f2f4fc;
 }
-
-
 
 /* Generales: */
 a {
-    color: #6b708d;
-    text-decoration: none;
+  color: #6b708d;
+  text-decoration: none;
 }
 
 h1 {
-    color: #292e47;
-    font-family: sans-serif;
-    text-align: center;
-    margin: 20px;
-    margin-top: 30px;
-    line-height: 45px;
+  color: #292e47;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+  line-height: 45px;
 }
 
 h3 {
-    color: #292e47;
-    text-align: start;
-    padding-top: 20px;
-    font-size: 30px;
+  color: #292e47;
+  text-align: start;
+  padding-top: 20px;
+  font-size: 30px;
 }
 
 /* nav: */
 .nav-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .listnav-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .logoCircle-svg {
-    width: 60px;
+  width: 60px;
 }
 
 .text-nav {
-    font-size: 12px;
-    list-style-type: none;
-    font-family: sans-serif;
+  font-size: 12px;
+  list-style-type: none;
+  font-family: sans-serif;
 }
 
 .button-contactUs {
-    background-color: #072ac8;
-    color: white;
-    font-size: 12px;
-    border-color: #072ac8;
-    margin-left: 10px;
+  background-color: #072ac8;
+  color: white;
+  font-size: 12px;
+  border-color: #072ac8;
+  margin-left: 10px;
 }
 
 /* hero-section: */
 .hero-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .buttonHero-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-text {
-    color: #6b708d;
-    font-family: sans-serif;
-    text-align: center;
-    margin: 30px;
-    margin-top: 30px;
-    line-height: 24px;
-    font-size: 17px;
+  color: #6b708d;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+  margin-top: 30px;
+  line-height: 24px;
+  font-size: 17px;
 }
 
 .button-getInTouch {
-    background-color: #072ac8;
-    color: white;
-    font-size: 17px;
-    border-color: #072ac8;
-    padding: 14px;
+  background-color: #072ac8;
+  color: white;
+  font-size: 17px;
+  border-color: #072ac8;
+  padding: 14px;
 }
 
 .button-seeOurWork {
-    background: transparent;
-    font-family: sans-serif;
-    outline: none;
-    color: #6b708d;
-    border: none;
-    font-size: 17px;
-    padding: 14px;
+  background: transparent;
+  font-family: sans-serif;
+  outline: none;
+  color: #6b708d;
+  border: none;
+  font-size: 17px;
+  padding: 14px;
 }
 
 .hero-image {
-    margin-top: 10px;
-    width: 315px;
+  margin-top: 10px;
+  width: 315px;
 }
 
 .card-1Hero {
-    display: none;
+  display: none;
 }
 
 .card-2Hero {
-    display: none;
+  display: none;
 }
 
 /* Logos: */
 .logos-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoAirbnb {
-    width: 104px;
-    height: 32px;
-    padding: 10px;
-    padding-top: 80px;
+  width: 104px;
+  height: 32px;
+  padding: 10px;
+  padding-top: 80px;
 }
 
 .logoGoogle {
-    width: 96px;
-    height: 32px;
-    padding: 20px;
+  width: 96px;
+  height: 32px;
+  padding: 20px;
 }
 
 .logoMicrosoft {
-    width: 120px;
-    height: 25px;
-    padding: 20px;
+  width: 120px;
+  height: 25px;
+  padding: 20px;
 }
 
 .logoFedex {
-    width: 101px;
-    height: 30px;
-    padding: 20px;
+  width: 101px;
+  height: 30px;
+  padding: 20px;
 }
 
 .logoAmazon {
-    width: 104px;
-    height: 32px;
-    padding: 20px;
+  width: 104px;
+  height: 32px;
+  padding: 20px;
 }
 
 /* Recent projects: */
 .recentProject-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f4fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f4fc;
 }
 
 .imgRecentProject1 {
-    width: 260px;
-    height: 240px;
+  width: 260px;
+  height: 240px;
 }
 
 .imgRecentProject2 {
-    width: 260px;
-    height: 240px;
+  width: 260px;
+  height: 240px;
 }
 
 .imgRecentProject3 {
-    width: 260px;
-    height: 240px;
+  width: 260px;
+  height: 240px;
 }
 
 .h3-a {
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .project1Text1 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 10px;
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .project1Text2 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 10px;
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .project1Text3 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-left: 10px;
-    line-height: 80px;
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+  line-height: 80px;
 }
 
 .containerWhite {
-    background-color: white;
+  background-color: white;
 }
 
 .project1Text4 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 10px
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .project1Text5 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 10px
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .project1Text6 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 80px;
-    margin-left: 10px
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 80px;
+  margin-left: 10px;
 }
 
 .project1Text7 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 10px
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .project1Text8 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 10px
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
 .project1Text9 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 80px;
-    margin-left: 10px
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 80px;
+  margin-left: 10px;
 }
 
 /* orbit: */
 .backgroundOrbit {
-    background-image: url("/testimonial-section/orbit.png");
-    background-color: #292e47;
-    background-size: contain;
-    margin-top: 60px;
-    margin-bottom: 30px;
+  background-image: url("/testimonial-section/orbit.png");
+  background-color: #292e47;
+  background-size: contain;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .orbit-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .h3-b {
-    color: #ecf7ff;
-    text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 150%;
-    padding-left: 30px;
-    padding-right: 30px;
+  color: #ecf7ff;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .h4-a {
-    color: #ffc600;
-    font-size: 24px;
-    line-height: 160%;
-    font-weight: 500;
-    text-align: center;
-    font-family: sans-serif;
+  color: #ffc600;
+  font-size: 24px;
+  line-height: 160%;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .imgOrbit1 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .client-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .nameClient {
-    color: #a2d6f9;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: sans-serif;
-    margin: auto;
+  color: #a2d6f9;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: auto;
 }
 
 .linkClient {
-    color: #ecf7ff;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: sans-serif;
-    margin: auto;
-    margin-bottom: 30px;
+  color: #ecf7ff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .blondGirlRightTop {
-    display: none;
+  display: none;
 }
 
 .brownBoyRightBottom {
-    display: none;
+  display: none;
 }
 
 .beardBoyLeftBottom {
-    display: none;
+  display: none;
 }
 
 .glassesGirlLeftTop {
-    display: none;
+  display: none;
 }
 
 /* Our Services: */
 
 .ourServices-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f4fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f4fc;
 }
 
 .interface-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 14px;
 }
 
 .containerWhiteServices {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .containerWhiteServices1 {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .imgRecentProject4 {
-    width: 40px;
-    height: 40px;
-    padding: 25%;
+  width: 40px;
+  height: 40px;
+  padding: 25%;
 }
 
 .imgRecentProject5 {
-    width: 40px;
-    height: 40px;
-    padding: 25%;
+  width: 40px;
+  height: 40px;
+  padding: 25%;
 }
 
 .imgRecentProject6 {
-    width: 40px;
-    height: 40px;
-    padding: 25%;
+  width: 40px;
+  height: 40px;
+  padding: 25%;
 }
 
 .containerBorderRadius {
-    border-radius: 50%;
-    background-color: #ECF7FF;
-    width: 80px;
-    height: 80px;
-    margin-left: 30px;
-    margin-top: 30px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .servicesText1 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 30px;
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .servicesText2 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 30px;
-    margin-right: 30px;
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .servicesText3 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-left: 30px;
-    line-height: 80px;
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+  line-height: 80px;
 }
 
 .servicesText4 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 30px
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .servicesText5 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 30px;
-    margin-right: 30px;
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .servicesText6 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 80px;
-    margin-left: 30px
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 80px;
+  margin-left: 30px;
 }
 
 .servicesText7 {
-    font-size: 24px;
-    color: #292e47;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 30px
+  font-size: 24px;
+  color: #292e47;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .servicesText8 {
-    font-size: 17px;
-    color: #292e47;
-    font-family: sans-serif;
-    font-weight: 400;
-    margin-left: 30px;
-    margin-right: 30px;
+  font-size: 17px;
+  color: #292e47;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .servicesText9 {
-    font-size: 17px;
-    color: #072ac8;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 80px;
-    margin-left: 30px
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 80px;
+  margin-left: 30px;
 }
 
 /* Questions: */
 
 .backgroundYellow {
-    background-color: #ffc600;
-    padding-bottom: 80px;
+  background-color: #ffc600;
+  padding-bottom: 80px;
 }
 
 .h3-questions {
-    color: #292e47;
-    text-align: start;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: 500;
-    line-height: 150%;
-    padding-top: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
+  color: #292e47;
+  text-align: start;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .helpText {
-    color: #6b708d;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: sans-serif;
-    text-align: center;
+  color: #6b708d;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .buttonQuestions-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .button-suscribe {
-    background-color: #072ac8;
-    color: white;
-    font-size: 17px;
-    border-color: #072ac8;
-    padding: 14px;
+  background-color: #072ac8;
+  color: white;
+  font-size: 17px;
+  border-color: #072ac8;
+  padding: 14px;
 }
 
 /* footer: */
-.footerContainer-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.footerContainer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content-logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.circle2-logo {
+  width: 100px;
+  height: 30px;
+}
+
+.footer-content-address {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer-text-adress {
+  text-align: center;
+  color: #6b708d;
+  font-size: 17px;
+  line-height: 150%;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.footer-links {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.footer-text-links {
+  font-size: 17px;
+  color: #072ac8;
+  font-family: sans-serif;
+}
+
+/* -------------------------------------------------------------------
+
+SECTION CONTACT US: */
+
+.contactForm-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px
+;
+}
+
+.contactForm-flex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.labelTextName {
+  margin-bottom: 10px;
+  color: #6b708d;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.labelTextEmail {
+  margin-bottom: 10px;
+  color: #6b708d;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.labelTextPhone {
+  margin-bottom: 10px;
+  color: #6b708d;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.labelTextMessage {
+  margin-bottom: 10px;
+  color: #6b708d;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.containerForm {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.containerName {
+  height: 50px;
+  width: 92%;
+  padding-left: 20px;
+  border: 1px none #000;
+  background-color: rgba(107, 112, 141, 0.1);
+}
+
+.containerEmail {
+  height: 50px;
+  width: 92%;
+  padding-left: 20px;
+  border: 1px none #000;
+  background-color: rgba(107, 112, 141, 0.1);
+}
+
+.containerPhone {
+  height: 50px;
+  width: 92%;
+  padding-left: 20px;
+  border: 1px none #000;
+  background-color: rgba(107, 112, 141, 0.1);
+}
+
+.containerMessage {
+  height: 50px;
+  width: 92%;
+  padding-left: 20px;
+  border: 1px none #000;
+  background-color: rgba(107, 112, 141, 0.1);
+  color: #6b708d;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-bottom: 60px;
+}
+
+.button-submit {
+  background-color: #072ac8;
+  color: white;
+  font-size: 14px;
+  border-color: #072ac8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* -------------------------------------------------------------------
+
+responsive: */
+@media (min-width: 1300px) {
+  .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  .nav-flex {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .listnav-flex {
+    gap: 40px;
+  }
+
+  .text-nav {
+    font-size: 14px;
+  }
+
+  .button-contactUs {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .logoCircle-svg {
+    width: 60px;
+  }
+
+  .hero-flex {
+    flex-direction: row;
     align-items: center;
-}
+  }
 
-.footer-content-logo{
-    margin-top: 30px;
+  .hero-image {
+    width: 560px;
+    height: 625px;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 80px;
+    text-align: left;
+    margin-top: 0px;
+    margin: 0px;
     margin-bottom: 30px;
-}
+  }
 
-.circle2-logo{
-   width: 100px;
-   height: 30px; 
-}
+  .hero-section {
+    margin-top: 100px;
+  }
 
-.footer-content-address{
-    margin-top: 30px;
+  .header-text {
+    text-align: left;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
+    margin-right: 200px;
+  }
 
-.footer-text-adress{
-    text-align: center;
-    color: #6b708d;
-    font-size: 17px;
-    line-height: 150%; 
+  .buttonHero-flex {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .hero-relAb {
+    display: flex;
+  }
+
+  .card-1Hero {
+    width: 294px;
+    height: 314px;
+    left: 40em;
+    top: 12em;
+    right: auto;
+    bottom: auto;
+    position: absolute;
+    display: block;
+    max-width: 100%;
+  }
+
+  .card-2Hero {
+    width: 294px;
+    height: 314px;
+    bottom: 1em;
+    right: 1em;
+    position: absolute;
+    display: block;
+  }
+
+  /*logos: */
+
+  .logos-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+  }
+
+  .logoAirbnb {
+    width: 104px;
+    height: 32px;
+    padding-top: 0;
+  }
+
+  .logoGoogle {
+    width: 96px;
+    height: 32px;
+  }
+
+  .logoMicrosoft {
+    width: 120px;
+    height: 25px;
+  }
+
+  .logoFedex {
+    width: 101px;
+    height: 30px;
+  }
+
+  .logoAmazon {
+    width: 104px;
+    height: 32px;
+  }
+
+  /* Recent projects: */
+  .recentProject-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .containerSpace {
+    margin-top: 300px;
+  }
+
+  .imgRecentProject1 {
+    width: 340px;
+  }
+
+  .imgRecentProject2 {
+    width: 340px;
+  }
+
+  .imgRecentProject3 {
+    width: 340px;
+  }
+
+  .h3-a {
+    text-align: start;
+    font-weight: bold;
     font-family: sans-serif;
-    margin: 0;
-}
+    font-size: 40px;
+    margin-left: 105px;
+  }
 
-.footer-links{
-    display: grid;
-    grid-auto-columns: 1fr;
-    gap: 16px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 100px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-}
+  .project1Text1 {
+    font-size: 24px;
+    color: #292e47;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 
-.footer-text-links{
+  .project1Text2 {
+    font-size: 17px;
+    color: #292e47;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+
+  .project1Text3 {
     font-size: 17px;
     color: #072ac8;
     font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    line-height: 80px;
+  }
+
+  /* Orbit: */
+
+  .backgroundOrbit {
+    position: relative;
+  }
+
+  .blondGirlRightTop {
+    height: 150px;
+    width: 150px;
+    top: 40px;
+    left: 150px;
+    position: absolute;
+    display: block;
+  }
+
+  .brownBoyRightBottom {
+    height: 150px;
+    width: 150px;
+    bottom: 40px;
+    left: 150px;
+    position: absolute;
+    display: block;
+  }
+
+  .beardBoyLeftBottom {
+    height: 150px;
+    width: 150px;
+    bottom: 40px;
+    right: 150px;
+    position: absolute;
+    display: block;
+  }
+
+  .glassesGirlLeftTop {
+    height: 150px;
+    width: 150px;
+    top: 40px;
+    right: 150px;
+    position: absolute;
+    display: block;
+  }
+
+  .h3-b {
+    font-size: 40px;
+  }
+
+  .h4-a {
+    padding: 100px;
+    padding-left: 422px;
+    padding-right: 422px;
+  }
+
+  .linkClient {
+    margin-bottom: 100px;
+  }
+
+  /* Our Services: */
+  .interface-flex {
+    flex-direction: column;
+  }
+
+  .ourServices-flex {
+    flex-direction: row;
+    margin-top: 90px;
+    gap: 30px;
+  }
+
+  .backgroundOrbit {
+    margin-bottom: 200px;
+  }
+
+  .containerWhiteServices1 {
+    background-color: white;
+    padding-top: 6px;
+  }
+
+  /* Questions: */
+
+  .backgroundYellow {
+    background-color: #ffc600;
+  }
+
+  .h3-questions {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .buttonQuestions-flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .backgroundYellow {
+    padding-bottom: 80px;
+  }
+
+  /* footer: */
+  .footerContainer-flex {
+    flex-direction: row;
+  }
+
+  .footer-links {
+    margin-top: 60px;
+  }
+
+  .contactForm-flex1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+  }
+  
 }
-
-    /* -------------------------------------------------------------------
-
-responsive: */
-    @media (min-width: 1300px) {
-
-        .container {
-            max-width: 85%;
-            margin: 0 auto;
-        }
-
-        .nav-flex {
-            justify-content: space-around;
-            margin-top: 30px;
-        }
-
-        .listnav-flex {
-            gap: 40px;
-        }
-
-        .text-nav {
-            font-size: 14px;
-        }
-
-        .button-contactUs {
-            font-size: 14px;
-            padding: 10px;
-        }
-
-        .logoCircle-svg {
-            width: 60px;
-        }
-
-        .hero-flex {
-            flex-direction: row;
-            align-items: center
-        }
-
-        .hero-image {
-            width: 560px;
-            height: 625px;
-            position: relative;
-        }
-
-        h1 {
-            font-size: 60px;
-            line-height: 80px;
-            text-align: left;
-            margin-top: 0px;
-            margin: 0px;
-            margin-bottom: 30px;
-        }
-
-        .hero-section {
-            margin-top: 100px;
-        }
-
-        .header-text {
-            text-align: left;
-            line-height: 40px;
-            font-size: 20px;
-            margin: 0px;
-            margin-top: 0px;
-            margin-bottom: 30px;
-            margin-right: 200px;
-        }
-
-        .buttonHero-flex {
-            flex-direction: row;
-            gap: 40px;
-        }
-
-        .hero-relAb {
-            display: flex;
-        }
-
-        .card-1Hero {
-            width: 294px;
-            height: 314px;
-            left: 40em;
-            top: 12em;
-            right: auto;
-            bottom: auto;
-            position: absolute;
-            display: block;
-            max-width: 100%;
-        }
-
-        .card-2Hero {
-            width: 294px;
-            height: 314px;
-            bottom: 1em;
-            right: 1em;
-            position: absolute;
-            display: block;
-        }
-
-        /*logos: */
-
-        .logos-flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding-top: 200px;
-        }
-
-        .logoAirbnb {
-            width: 104px;
-            height: 32px;
-            padding-top: 0;
-        }
-
-        .logoGoogle {
-            width: 96px;
-            height: 32px;
-        }
-
-        .logoMicrosoft {
-            width: 120px;
-            height: 25px;
-        }
-
-        .logoFedex {
-            width: 101px;
-            height: 30px;
-        }
-
-        .logoAmazon {
-            width: 104px;
-            height: 32px;
-        }
-
-        /* Recent projects: */
-        .recentProject-flex {
-            flex-direction: row;
-            justify-content: space-between
-        }
-
-        .containerSpace {
-            margin-top: 300px;
-        }
-
-        .imgRecentProject1 {
-            width: 340px;
-        }
-
-        .imgRecentProject2 {
-            width: 340px;
-        }
-
-        .imgRecentProject3 {
-            width: 340px;
-        }
-
-        .h3-a {
-            text-align: start;
-            font-weight: bold;
-            font-family: sans-serif;
-            font-size: 40px;
-            margin-left: 105px;
-        }
-
-        .project1Text1 {
-            font-size: 24px;
-            color: #292e47;
-            background-color: white;
-            font-family: sans-serif;
-            font-weight: 500;
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-
-        .project1Text2 {
-            font-size: 17px;
-            color: #292e47;
-            font-family: sans-serif;
-            font-weight: 400;
-            margin-left: 10px;
-        }
-
-        .project1Text3 {
-            font-size: 17px;
-            color: #072ac8;
-            font-family: sans-serif;
-            font-weight: 500;
-            margin-left: 10px;
-            line-height: 80px;
-        }
-
-        /* Orbit: */
-
-        .backgroundOrbit {
-            position: relative;
-        }
-
-        .blondGirlRightTop {
-            height: 150px;
-            width: 150px;
-            top: 40px;
-            left: 150px;
-            position: absolute;
-            display: block;
-        }
-
-        .brownBoyRightBottom {
-            height: 150px;
-            width: 150px;
-            bottom: 40px;
-            left: 150px;
-            position: absolute;
-            display: block;
-        }
-
-        .beardBoyLeftBottom {
-            height: 150px;
-            width: 150px;
-            bottom: 40px;
-            right: 150px;
-            position: absolute;
-            display: block;
-        }
-
-        .glassesGirlLeftTop {
-            height: 150px;
-            width: 150px;
-            top: 40px;
-            right: 150px;
-            position: absolute;
-            display: block;
-        }
-
-        .h3-b {
-            font-size: 40px;
-        }
-
-        .h4-a {
-            padding: 100px;
-            padding-left: 422px;
-            padding-right: 422px;
-        }
-
-        .linkClient {
-            margin-bottom: 100px;
-        }
-
-        /* Our Services: */
-        .interface-flex {
-            flex-direction: column;
-        }
-
-        .ourServices-flex {
-            flex-direction: row;
-            margin-top: 90px;
-            gap: 30px;
-        }
-
-        .backgroundOrbit {
-            margin-bottom: 200px;
-        }
-
-        .containerWhiteServices1 {
-            background-color: white;
-            padding-top: 6px;
-        }
-
-        /* Questions: */
-
-        .backgroundYellow {
-            background-color: #ffc600;
-        }
-
-        .h3-questions {
-            text-align: center;
-            font-size: 40px;
-        }
-
-        .buttonQuestions-flex {
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        .backgroundYellow {
-            padding-bottom: 80px;
-        }
-        
-        /* footer: */
-        .footerContainer-flex{
-            flex-direction: row;
-        }
-        
-        .footer-links{
-            margin-top: 60px;
-}
-
-    }
