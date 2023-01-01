@@ -589,8 +589,7 @@ SECTION CONTACT US: */
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 20px
-;
+  gap: 20px;
 }
 
 .contactForm-flex1 {
@@ -683,6 +682,68 @@ SECTION CONTACT US: */
   padding-bottom: 15px;
 }
 
+/* -------------------------------------------------------------------
+
+PROJECTS: */
+.h1-a {
+  color: #292e47;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 20px;
+  margin-top: 30px;
+  line-height: 45px;
+}
+
+.textwithdate-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstTextProjects {
+  color: #6b708d;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+
+.secondTextProjects {
+  font-size: 20px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.firstImageProjects-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstImageProjects{
+  width: 315px;
+  height: 444px;
+}
+
+.bigTextProjects{
+  color: #292e47;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 20px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+/* -------------------------------------------------------------------
+
+responsive: */
+/* -------------------------------------------------------------------
+
+responsive: */
+/* -------------------------------------------------------------------
+
+responsive: */
 /* -------------------------------------------------------------------
 
 responsive: */
@@ -995,5 +1056,43 @@ responsive: */
   .button-submit {
     width: 94%;
   }
+
+/* PROJECTS: */
+
+.h1-a {
+  font-size: 60px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.textwithdate-flex {
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 90px;
+}
+
+.firstTextProjects {
+  font-size: 24px;
+}
+
+.firstImageProjects{
+  width: 1100px;
+  height: 1028px
   
+}
+
+.bigTextProjects{
+  color: #292e47;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 20px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.containerProjects{
+  margin-bottom: -250px;
+}
 }
