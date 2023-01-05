@@ -14,7 +14,9 @@ obtenerPokemons();
 const HTMLResponse = document.querySelector('#app');
 
 //Button para Contact us
-document.getElementById("btnContact").addEventListener("click", e=>{window.location.href = "contactus.html"})
+document.getElementById("btnContact").addEventListener("click", e=>{window.location.href = "contactus.html"});
+
+
 
 
 
